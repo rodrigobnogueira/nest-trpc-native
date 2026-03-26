@@ -121,6 +121,7 @@ Required pre-publish checklist:
 4. Run `npm run release:check`.
 5. Run `npm ls nest-trpc-native --workspaces --depth=0` and verify every sample resolves to the target version.
 6. Run full validation: `npm run ci`.
+7. Create a tag in Github.
 
 Required post-publish checklist:
 1. Confirm registry version exists: `npm view nest-trpc-native@<version> version`.
